@@ -70,15 +70,11 @@ body {
 }
 
 /* Header */
-.header {
-}
-
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-
   color: var(--selected-text-color);
 }
 
@@ -86,26 +82,11 @@ body {
   color: var(--dark-text-color);
 }
 
-.header-navigation {
-}
-.header-navigation-list {
-}
-.header-navigation-item {
-}
-
 .header-navigation-link,
 .header-contacts-link {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-}
-
-.header-navigation-link {
-  /* nasliduvanna? */
-  /*  color: var(--main-text-color); */
-}
-
-.header-contacts {
 }
 
 .header-contacts-link {
@@ -124,7 +105,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--light-text-color);
 }
 
@@ -140,34 +120,22 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: var(--light-text-color);
 }
 
 /* Benefits */
-.benefits {
-}
-.benefits-title {
-}
-.benefits-list {
-}
-.benefits-item {
-}
-
 .benefits-item-title {
   font-weight: 700;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
+
 .benefits-item-content {
   line-height: calc(24 / 14);
   color: var(--content--text-color);
 }
 
 /* Activity */
-.activity {
-}
-
 .activity-title,
 .team-title {
   font-weight: 700;
@@ -176,25 +144,7 @@ body {
   text-align: center;
 }
 
-.activity-list {
-}
-.activity-item {
-}
-.activity-item-img {
-}
-
 /* Team */
-.team {
-}
-.team-title {
-}
-.team-list {
-}
-.team-member {
-}
-.team-member-photo {
-}
-
 .team-member-name,
 .team-member-position {
   font-size: 16px;
@@ -205,6 +155,7 @@ body {
 .team-member-name {
   font-weight: 500;
 }
+
 .team-member-position {
   color: var(--content--text-color);
 }
@@ -227,27 +178,12 @@ body {
   color: var(--light-text-color);
 }
 
-.address-list {
-}
-
 .address-list-link {
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio page */
-
-.portfolio {
-}
-.portfolio-title {
-}
-.filters-title {
-}
-.filters-list {
-}
-.filters-item {
-}
-
 .filters-btn {
   background-color: var(--button-bg-secondary-color);
   border-radius: 4px;
@@ -257,26 +193,12 @@ body {
   line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: inherit;
-
   color: inherit;
 }
 
 .filters-btn:hover {
   background-color: var(--button-bg-main-color);
   color: var(--light-text-color);
-}
-
-.projects-title {
-}
-.projects-list {
-}
-.projects-row {
-}
-.projects-row-list {
-}
-.projects-row-item {
-}
-.project-img {
 }
 
 .project-title {
@@ -289,7 +211,6 @@ body {
 .project-content {
   font-size: 16px;
   line-height: calc(30 / 16);
-
   color: var(--content--text-color);
 }
 
