@@ -22,8 +22,6 @@
 /*main text style*/
 body {
   font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -54,7 +52,7 @@ body {
 /*button general style settings*/
 .front-btn,
 .filters-btn {
-  font: inherit;
+  font-family: inherit;
   border: none;
   cursor: pointer;
 }
@@ -133,6 +131,7 @@ body {
 /* Benefits */
 .benefits-item-title {
   font-weight: 700;
+  font-size: inherit;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
