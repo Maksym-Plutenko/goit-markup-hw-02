@@ -3,8 +3,8 @@
 /*fonts & colours*/
 :root {
   /*fonts*/
---main-font: 'Roboto', sans-serif;
---secondary-font: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* text colors */
   --main-text-color: #212121;
@@ -15,7 +15,8 @@
 
   /* background colors */
   --main-bg-color: #2f303a;
-  --button-bg-color: #2196f3;
+  --button-bg-main-color: #2196f3;
+  --button-bg-secondary-color: #f5f4fa;
 }
 
 /*main text style*/
@@ -51,11 +52,21 @@ body {
 .benefits-list,
 .activity-list,
 .team-list,
-.address-list {
+.address-list,
+.filters-list,
+.projects-list,
+.projects-row-list {
   list-style-type: none;
   text-indent: 0;
-  margin:0;
+  margin: 0;
   padding: 0;
+}
+
+/*button style reset*/
+.front-btn,
+.filters-btn {
+  font: inherit;
+  border: none;
 }
 
 /* Header */
@@ -91,7 +102,7 @@ body {
 
 .header-navigation-link {
   /* nasliduvanna? */
-/*  color: var(--main-text-color); */
+  /*  color: var(--main-text-color); */
 }
 
 .header-contacts {
@@ -101,8 +112,6 @@ body {
   color: var(--content--text-color);
 }
 
-
-
 /* Front section */
 .front {
   background-color: var(--main-bg-color);
@@ -111,7 +120,7 @@ body {
 .front-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc (60 / 44);
+  line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -119,8 +128,8 @@ body {
   color: var(--light-text-color);
 }
 
-.front-button {
-  background-color: var(--button-bg-color);
+.front-btn {
+  background-color: var(--button-bg-main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
@@ -224,4 +233,67 @@ body {
 .address-list-link {
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio page */
+
+.portfolio {
+}
+.portfolio-title {
+}
+.filters-title {
+}
+.filters-list {
+}
+.filters-item {
+}
+
+.filters-btn {
+  background-color: var(--button-bg-secondary-color);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: inherit;
+
+  color: inherit;
+}
+
+.filters-btn:hover {
+  background-color: var(--button-bg-main-color);
+  color: var(--light-text-color);
+}
+
+.projects-title {
+}
+.projects-list {
+}
+.projects-row {
+}
+.projects-row-list {
+}
+.projects-row-item {
+}
+.project-img {
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.project-content {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+
+  color: var(--content--text-color);
+}
+
+/* Active page styling */
+.active {
+  color: var(--selected-text-color);
 }
