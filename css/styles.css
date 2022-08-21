@@ -31,7 +31,7 @@ body {
   color: var(--main-text-color);
 }
 
-/*general link style settings*/
+/*link general style settings*/
 .logo,
 .header-navigation-link,
 .header-contacts-link,
@@ -44,6 +44,19 @@ body {
 .header-contacts-link:hover,
 .address-list-link:hover {
   color: var(--selected-text-color);
+}
+
+.header-contacts-link:focus,
+.address-list-link:focus {
+  color: var(--selected-text-color);
+}
+
+/*button general style settings*/
+.front-btn,
+.filters-btn {
+  font: inherit;
+  border: none;
+  cursor: pointer;
 }
 
 /*list style reset*/
@@ -62,12 +75,6 @@ body {
   padding: 0;
 }
 
-/*button style reset*/
-.front-btn,
-.filters-btn {
-  font: inherit;
-  border: none;
-}
 
 /* Header */
 .logo {
